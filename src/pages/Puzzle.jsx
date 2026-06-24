@@ -269,7 +269,7 @@ function Puzzle({ setUserId, userId }) {
             <FoundWords wordsVisible={wordsVisible} setWordsVisible={setWordsVisible} foundWords={foundWords} />
 
 
-            <div style={{ width: '85%', display: 'flex', flexDirection: 'column', gap: '.5rem' }}>
+            <div style={{ width: '85%', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem' }}>
                     <Image src={listIcon} h={32} w={'auto'} onClick={() => { getUserFoundWords(); setWordsVisible(true) }} />
                     <Image src={signOutIcon} h={32} w={'auto'} onClick={() => setUserId(null)} />
