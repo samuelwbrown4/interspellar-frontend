@@ -9,6 +9,11 @@
     padding-bottom: 1rem;
 }
 
+.puzzle-root {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
 #puzzle-column-container {
     display: flex;
     justify-content: center;
