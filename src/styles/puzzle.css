@@ -12,7 +12,7 @@
 #puzzle-column-container {
     display: flex;
     justify-content: center;
-    gap: .5rem;
+    gap: .25rem;
     
     width: 90%;
 }
@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .75rem;
 }
 
 .outer {
@@ -30,15 +30,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .outer-letter {
     color: black;
     font-weight: bolder;
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,8 @@
     color: black;
     font-weight: bolder;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
