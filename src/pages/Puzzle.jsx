@@ -277,7 +277,7 @@ function Puzzle({ setUserId, userId }) {
                 <PointsProgress score={score} maxPoints={maxPoints} checkpoints={[checkpoint1, checkpoint2, checkpoint3, checkpoint4, checkpoint5]} />
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', height: '15%', width: '100vw', justifyContent: 'flex-end' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center',  width: '100vw', justifyContent: 'flex-end' }}>
 
                 <h2 style={{ margin: '0px' }}>{score}</h2>
 
