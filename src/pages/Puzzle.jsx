@@ -269,7 +269,7 @@ function Puzzle({ setUserId, userId }) {
             <FoundWords wordsVisible={wordsVisible} setWordsVisible={setWordsVisible} foundWords={foundWords} />
 
 
-            <div style={{ width: '85%', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ width: '85%', display: 'flex', flexDirection: 'column', gap: '.5rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem' }}>
                     <Image src={listIcon} h={32} w={'auto'} onClick={() => { getUserFoundWords(); setWordsVisible(true) }} />
                     <Image src={signOutIcon} h={32} w={'auto'} onClick={() => setUserId(null)} />
@@ -277,7 +277,7 @@ function Puzzle({ setUserId, userId }) {
                 <PointsProgress score={score} maxPoints={maxPoints} checkpoints={[checkpoint1, checkpoint2, checkpoint3, checkpoint4, checkpoint5]} />
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', alignItems: 'center', height: '15%', width: '100vw', justifyContent: 'flex-end' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', height: '15%', width: '100vw', justifyContent: 'flex-end' }}>
 
                 <h2 style={{ margin: '0px' }}>{score}</h2>
 
