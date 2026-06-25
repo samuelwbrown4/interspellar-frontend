@@ -279,7 +279,7 @@ function Puzzle({ setUserId, userId }) {
             <div style={{display: 'flex' , flexDirection: 'column' , alignItems: 'center' , gap: '1rem'}}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center',  width: '100vw', justifyContent: 'flex-end' }}>
 
-                <h2 style={{ margin: '0px' }}>{score}</h2>
+                <h2 style={{ margin: '0px' , color: 'white' }}>{score}</h2>
 
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '.5rem' }}>
                     <div style={{ height: '45px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
