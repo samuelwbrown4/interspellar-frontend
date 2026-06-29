@@ -5,7 +5,7 @@ function FoundWords({wordsVisible , setWordsVisible, foundWords}){
     return(
         
         <Modal zIndex={1000} opened={wordsVisible} onClose={()=>setWordsVisible(false)} title={`You have found ${foundWords.length} words`} styles={{
-            content: {backgroundColor: 'black'} , body: {backgroundColor: 'black'} , header: {backgroundColor: 'black'}
+            content: {backgroundColor: 'black' , color: 'white'} , body: {backgroundColor: 'black' , color: 'white'} , header: {backgroundColor: 'black' , color: 'white'}
         }}>
             <ul>
                 {foundWords.map(w=> (
